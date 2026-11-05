@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "faxbeep",
-  "version": "1.0.0",
-  "description": "Get free public test fax numbers and email addresses, then check whether a test fax or scan-to-email test arrived.",
+  "version": "1.0.1",
+  "description": "Get public test fax numbers and email addresses, then check whether a test fax or scan-to-email test arrived.",
   "author": {
     "name": "Faxbeep",
     "url": "https://faxbeep.com"
@@ -15,7 +15,7 @@
       "interface": {
         "displayName": "Faxbeep",
         "shortDescription": "Test a fax or scan-to-email",
-        "longDescription": "Check that a fax machine, a fax service or a scan-to-email setup works.\n\nFaxbeep gives free test fax numbers in the US, the UK and Australia, and a test email address for each. Send a test to one of them, then ask whether it arrived. Faxbeep shows what it received: the sender (masked), the time, the number of pages, and a link to the page of the fax.\n\nEvery test that Faxbeep receives is public on faxbeep.com for 30 days. Do not send a private document.\n\nLimitations: Faxbeep only receives. It does not send faxes, and it cannot remove a fax. A match by time, sender or page count narrows the candidates but does not prove that a fax is yours, because other people send tests at the same time.",
+        "longDescription": "Check that a fax machine, a fax service or a scan-to-email setup works.\n\nFaxbeep gives test fax numbers in the US, the UK and Australia, and a test email address for each. Send a test to one of them, then ask whether it arrived. Faxbeep shows what it received: the sender (masked), the time, the number of pages, and a link to the page of the fax.\n\nEvery test that Faxbeep receives is public on faxbeep.com for 30 days. Do not send a private document.\n\nLimitations: Faxbeep only receives. It does not send faxes, and it cannot remove a fax. A match by time, sender or page count narrows the candidates but does not prove that a fax is yours, because other people send tests at the same time.",
         "developerName": "Faxbeep",
         "category": "Productivity",
         "capabilities": ["Get test fax numbers", "Check that a test fax arrived"],
@@ -28,7 +28,7 @@
           "Did my test fax arrive?",
           "I want to test scan-to-email on my office printer."
         ],
-        "brandColor": "#FFCC00",
+        "brandColor": "#3A3129",
         "logo": "./assets/logo.png",
         "composerIcon": "./assets/logo.png"
       },
