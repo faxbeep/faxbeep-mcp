@@ -29,14 +29,14 @@ The server instructions and the `list_test_faxes` description name these samples
 ## Build the ZIP
 
 ```sh
-cd openai-plugin && zip -r ../faxbeep-openai-plugin.zip plugin.json mcp.json assets
+cd openai-plugin && zip -r ../faxbeep-openai-plugin-$(python3 -c "import json; print(json.load(open('plugin.json'))['version'])").zip plugin.json mcp.json assets
 ```
 
 Do not commit the ZIP. Attach it to a release. The Gemini CLI installer picks a release when one exists, which is why the Gemini install line in the main README uses `--ref main`.
 
 ## Submit
 
-1. Platform > Plugins > "Upload new or existing plugin". Choose the verified Faxbeep identity.
+1. https://platform.openai.com/plugins > "Upload new or existing plugin". Choose the verified Faxbeep identity.
 2. Fix the metadata findings and upload again.
 3. MCPs > Connect. Serve the challenge token as plain text at `https://faxbeep.com/.well-known/openai-apps-challenge` (a file in `public/.well-known/` of the core app, and a deploy). Wait for the tool scan.
 4. Submit for review. In the reviewer notes:
