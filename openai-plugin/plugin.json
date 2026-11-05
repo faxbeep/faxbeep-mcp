@@ -14,7 +14,7 @@
     "com.openai": {
       "interface": {
         "displayName": "Faxbeep",
-        "shortDescription": "Test a fax machine or scan-to-email",
+        "shortDescription": "Test a fax or scan-to-email",
         "longDescription": "Check that a fax machine, a fax service or a scan-to-email setup works.\n\nFaxbeep gives free test fax numbers in the US, the UK and Australia, and a test email address for each. Send a test to one of them, then ask whether it arrived. Faxbeep shows what it received: the sender (masked), the time, the number of pages, and a link to the page of the fax.\n\nEvery test that Faxbeep receives is public on faxbeep.com for 30 days. Do not send a private document.\n\nLimitations: Faxbeep only receives. It does not send faxes, and it cannot remove a fax. A match by time, sender or page count narrows the candidates but does not prove that a fax is yours, because other people send tests at the same time.",
         "developerName": "Faxbeep",
         "category": "Productivity",
