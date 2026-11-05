@@ -1,5 +1,7 @@
 # Faxbeep MCP server
 
+[![Faxbeep MCP connector - tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/com.faxbeep/faxbeep/badges/score.svg)](https://glama.ai/mcp/connectors/com.faxbeep/faxbeep)
+
 Test a fax machine, a fax service or a scan-to-email setup from your AI agent. Faxbeep gives free public test fax numbers and test email addresses. Send a test to one, then ask your agent whether it arrived.
 
 ```
