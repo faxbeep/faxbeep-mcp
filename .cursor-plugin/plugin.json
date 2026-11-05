@@ -1,0 +1,13 @@
+{
+  "name": "faxbeep",
+  "version": "1.0.0",
+  "description": "Test a fax machine, fax service or scan-to-email setup from your AI agent. Get free public test fax numbers and email addresses, send a test, then read what Faxbeep received. Read-only, no account or API key.",
+  "author": {
+    "name": "Faxbeep",
+    "url": "https://faxbeep.com"
+  },
+  "homepage": "https://faxbeep.com/test-fax-mcp",
+  "repository": "https://github.com/faxbeep/faxbeep-mcp",
+  "logo": "openai-plugin/assets/logo.png",
+  "keywords": ["fax", "test fax", "fax test", "scan to email", "mcp"]
+}

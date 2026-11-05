@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "faxbeep": {
+      "serverUrl": "https://faxbeep.com/mcp"
+    }
+  }
+}

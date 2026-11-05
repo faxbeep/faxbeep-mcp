@@ -1,0 +1,10 @@
+{
+  "name": "faxbeep",
+  "version": "1.0.0",
+  "description": "Test a fax machine, fax service or scan-to-email setup from Gemini CLI. Get free public test fax numbers and email addresses, send a test, then read what Faxbeep received. Read-only, no account or API key. Each test is public for 30 days.",
+  "mcpServers": {
+    "faxbeep": {
+      "httpUrl": "https://faxbeep.com/mcp"
+    }
+  }
+}

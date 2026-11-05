@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.faxbeep/faxbeep",
+  "title": "Faxbeep",
+  "description": "Test fax numbers for AI agents. Send a test fax or scan-to-email, then read what Faxbeep received.",
+  "version": "1.0.0",
+  "websiteUrl": "https://faxbeep.com/test-fax-mcp",
+  "repository": {
+    "url": "https://github.com/faxbeep/faxbeep-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://faxbeep.com/mcp"
+    }
+  ]
+}
